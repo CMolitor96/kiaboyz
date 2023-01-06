@@ -1,14 +1,12 @@
 require('dotenv').config();
-const Sequelize = require('sequelize');
-const sequelize = new Sequelize(
-    process.env.REACT_APP_DB_NAME,
-    process.env.REACT_APP_DB_USER,
-    process.env.REACT_APP_DB_PASSWORD,
-  {
-    host: 'localhost',
-    dialect: 'mysql',
-    port: 3306
-  }
+const mysql = require('mysql2');
+const db = mysql.createConnection(
+    {
+        host: process.env.REACT_APP_DB_HOST,
+        user: process.env.REACT_APP_DB_USER,
+        password: process.env.REACT_APP_DB_PASSWORD,
+        database: process.env.REACT_APP_DB_NAME,
+    },
 );
 
-module.exports = sequelize;
+module.exports = db;
