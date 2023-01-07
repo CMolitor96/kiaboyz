@@ -889,12 +889,12 @@ INSERT INTO Kia (Year, Make, Model, Trim, Bodytype, Immobilizer, Option_for_Immo
 -- Kia K5
 INSERT INTO Kia (Year, Make, Model, Trim, Bodytype, Immobilizer, Option_for_Immobilizer) VALUES
     (2021,'Kia','K5','LX','LX 4dr Sedan 1.6L 4cyl Turbo 8A','FALSE','TRUE'),
-    (2021,'Kia','K6','LXS','LXS 4dr Sedan 1.6L 4cyl Turbo 8A','TRUE','TRUE'),
-    (2021,'Kia','K7','LXS','LXS 4dr Sedan AWD 1.6L 4cyl Turbo 8A','TRUE','TRUE'),
-    (2021,'Kia','K8','GT-Line','GT-Line 4dr Sedan 1.6L 4cyl Turbo 8A','TRUE','TRUE'),
-    (2021,'Kia','K9','GT-Line','GT-Line 4dr Sedan AWD 1.6L 4cyl Turbo 8A','TRUE','TRUE'),
-    (2021,'Kia','K10','EX','EX 4dr Sedan 1.6L 4cyl Turbo 8A','TRUE','TRUE'),
-    (2021,'Kia','K11','GT','GT 4dr Sedan2.5L 4cyl Turbo 8AM','TRUE','TRUE')
+    (2021,'Kia','K5','LXS','LXS 4dr Sedan 1.6L 4cyl Turbo 8A','TRUE','TRUE'),
+    (2021,'Kia','K5','LXS','LXS 4dr Sedan AWD 1.6L 4cyl Turbo 8A','TRUE','TRUE'),
+    (2021,'Kia','K5','GT-Line','GT-Line 4dr Sedan 1.6L 4cyl Turbo 8A','TRUE','TRUE'),
+    (2021,'Kia','K5','GT-Line','GT-Line 4dr Sedan AWD 1.6L 4cyl Turbo 8A','TRUE','TRUE'),
+    (2021,'Kia','K5','EX','EX 4dr Sedan 1.6L 4cyl Turbo 8A','TRUE','TRUE'),
+    (2021,'Kia','K5','GT','GT 4dr Sedan2.5L 4cyl Turbo 8AM','TRUE','TRUE')
 ;
 
 -- Kia Rio
