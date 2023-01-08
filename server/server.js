@@ -13,8 +13,8 @@ if (process.env.NODE_ENV === 'production') {
 }
 app.use(routes);
 
-app.listen(PORT, () => console.log('Now listening at http://localhost:3001'));
-carInfo(2011, 'Kia', 'Forte');
+app.listen(PORT, () => console.log(`Now listening at http://localhost:${PORT}`));
+// carInfo(2011, 'Kia', 'Forte');
 
 
 

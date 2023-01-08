@@ -3,34 +3,40 @@
 const db = require('../config/connection');
 
 module.exports = {
-    carMake: function(make) {
-        db.query(`Select Model from ${make}`, (err, results) => {
+    carMake: function({params}, res) {
+        db.query(`Select Model from ${params.make}`, (err, results) => {
             if (err) {
-                console.log(err);
+                return res.status(404).json({message: `Error getting model from ${params.make}`});
             } else {
                 let models = new Set(results.map(element =>  element.Model));
                 let modelsArray = Array.from(models);
-                console.log(modelsArray);
+                return res.json(modelsArray);
             }
         })
     },
-    carYear: function(make, model) {
-        db.query(`Select Year from ${make} where Model = '${model}'`, (err, results) => {
+    carYear: function({params}, res) {
+        db.query(`Select Year from ${params.make} where Model = '${params.model}'`, (err, results) => {
             if (err) {
-                console.log(err);
+                return res.status(404).json({message: `Error getting Year from ${params.make} where model = ${params.model}`}); 
             } else {
                 let year = new Set(results.map(element =>  element.Year));
                 let yearArray = Array.from(year);
-                console.log(yearArray);
+                if (yearArray.length === 0) {
+                    return res.status(404).json({message: `There are no Years pertaining to ${params.make} where model = ${params.model}`})
+                } else {
+                    return res.json(yearArray);
+                }
             }
         });
     },
-    carInfo: function(year, make, model) {
-        db.query(`Select * from ${make} where Model = '${model}' and Year = ${year}`, (err, results) => {
+    carInfo: function({params}, res) {
+        db.query(`Select * from ${params.make} where Model = '${params.model}' and Year = ${params.year}`, (err, results) => {
             if (err) {
-                console.log(err);
+                return res.status(404).json({message: `Error getting cars from ${params.make} where model = ${params.model} and year = ${params.year}`});
+            } else if (results.length === 0) {
+                return res.status(404).json({message: `No results found for ${params.make} where model = ${params.model} and year = ${params.year}`});
             } else {
-                console.log(results);
+                res.json(results);
             }
         })
     }

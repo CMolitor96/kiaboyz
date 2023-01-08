@@ -1,6 +1,9 @@
-import React from 'react';
-import Dropdown from 'react-bootstrap/Dropdown';
-import carModel from './pages/carModel';
+import React, { useEffect } from 'react';
+import { useParams } from 'react-router-dom'
+// import Dropdown from 'react-bootstrap/Dropdown';
+// import CarModel from './pages/carModel';
+
+
 export default function Homepage() {
 
   const styles = {
@@ -13,14 +16,24 @@ export default function Homepage() {
       fontSize: '5rem',
     },
 
+  };
+
+  const Params = () => {
+    let { goose } = useParams();
+    console.log(goose);
   }
+  
+  
+
+
   return (
     <div>
+      {Params}
       <div className='container'>
 
         <div className='row'>
           <div className='col'>
-            <header style={styles.header}>Check yo kia</header>
+            <header style={styles.header}>Check your kia</header>
           </div>
           <div className='col'>
             <p>put logo here</p>
@@ -28,22 +41,23 @@ export default function Homepage() {
         </div>
 
         <div className='row'>
-          <div className='col'>
-            <Dropdown>
-              <Dropdown.Toggle variant="success" id="dropdown-basic">
-                Choose your car
-              </Dropdown.Toggle>
 
-              <Dropdown.Menu>
-                <Dropdown.Item href="#/action-1">Hyundai</Dropdown.Item>
-                <Dropdown.Item href="#/action-2">Kia</Dropdown.Item>
-              </Dropdown.Menu>
-            </Dropdown>
+          <div className='col'>
+            <label> What kind of car do you have?
+              <select className="form-select">
+                <option></option>
+                <option>Hyundai</option>
+                <option>Kia</option>
+              </select>
+            </label>
           </div>
+          
+
         </div>
+        
 
       </div>
-      {<carModel />}
+      {/* {<CarModel />} */}
 
     </div>
   );
