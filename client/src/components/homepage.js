@@ -1,7 +1,6 @@
 import React from 'react';
-import { useParams } from 'react-router-dom'
-// import Dropdown from 'react-bootstrap/Dropdown';
-// import CarModel from './pages/carModel';
+import { Link } from 'react-router-dom';
+
 
 
 export default function Homepage() {
@@ -15,20 +14,10 @@ export default function Homepage() {
       color: 'white',
       fontSize: '5rem',
     },
-
   };
-
-  const Params = () => {
-    let { goose } = useParams();
-    console.log(goose);
-  }
-  
-  
-
 
   return (
     <div>
-      {Params}
       <div className='container'>
 
         <div className='row'>
@@ -41,23 +30,12 @@ export default function Homepage() {
         </div>
 
         <div className='row'>
-
           <div className='col'>
-            <label> What kind of car do you have?
-              <select className="form-select">
-                <option></option>
-                <option>Hyundai</option>
-                <option>Kia</option>
-              </select>
-            </label>
+            <Link className='btn btn-primary button' to={`/search`}>Search for your car</Link>
           </div>
-          
-
         </div>
-        
 
       </div>
-      {/* {<CarModel />} */}
 
     </div>
   );

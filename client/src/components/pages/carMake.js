@@ -7,7 +7,7 @@ export default function CarMake() {
 
     return (
         <div>
-            <div>This is the first page to pick Hyundai or Kia</div>
+            <div>What kind of car do you have?</div>
             <Link className = 'btn btn-primary button' to={`/search/Hyundai`}>Hyundai</Link>
             <Link className = 'btn btn-primary button' to={`/search/Kia`}>Kia</Link>
         </div>

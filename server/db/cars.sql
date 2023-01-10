@@ -1205,7 +1205,7 @@ INSERT INTO Kia (Year, Make, Model, Trim, Bodytype, Immobilizer, Option_for_Immo
     (2015,'Kia','Sorento','SX','SX 4dr SUV3.3L 6cyl 6A','TRUE','TRUE'),
     (2015,'Kia','Sorento','SX','SX 4dr SUV AWD3.3L 6cyl 6A','TRUE','TRUE'),
     (2015,'Kia','Sorento','LIMITED','LIMITED 4dr SUV3.3L 6cyl 6A','TRUE','TRUE'),
-    (2015,'Kia','Sorento','LIIMITED','LIMITED 4dr SUV AWD3.3L 6cyl 6A','TRUE','TRUE'),
+    (2015,'Kia','Sorento','LIMITED','LIMITED 4dr SUV AWD3.3L 6cyl 6A','TRUE','TRUE'),
     (2016,'Kia','Sorento','L','L 4dr SUV2.4L 4cyl 6A','FALSE','TRUE'),
     (2016,'Kia','Sorento','LX','LX 4dr SUV2.4L 4cyl 6A','FALSE','TRUE'),
     (2016,'Kia','Sorento','LX','LX 4dr SUV AWD2.4L 4cyl 6A','FALSE','TRUE'),
