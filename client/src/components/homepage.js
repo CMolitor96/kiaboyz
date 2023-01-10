@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { useParams } from 'react-router-dom'
 // import Dropdown from 'react-bootstrap/Dropdown';
 // import CarModel from './pages/carModel';
