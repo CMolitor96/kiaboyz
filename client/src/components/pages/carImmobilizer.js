@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import { searchCarImmobilizer } from '../../utils/API';
 
 export default function CarImmobilizer() {
@@ -39,6 +39,8 @@ export default function CarImmobilizer() {
                 )
                     
             })}
+
+            <Link key={bodytype} className='btn btn-primary button' to={`/`}>Return to home</Link>
             
             
         </div>

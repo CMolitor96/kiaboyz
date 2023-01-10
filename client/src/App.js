@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Header from "./components/pages/header";
 import Homepage from "./components/homepage";
 import CarMake from "./components/pages/carMake";
 import CarModel from './components/pages/carModel';
@@ -7,11 +8,13 @@ import CarYear from './components/pages/carYear';
 import CarTrim from "./components/pages/carTrim";
 import CarBodytype from "./components/pages/carBodytype";
 import CarImmobilizer from "./components/pages/carImmobilizer";
+import Footer from "./components/pages/footer";
 
 
 function App() {
   return (
     <Router>
+      <header><Header /></header><br></br>
       <Routes>
         <Route exact path="/" element={<Homepage />} />
         <Route exact path="/search" element={<CarMake />} />
@@ -21,6 +24,7 @@ function App() {
         <Route exact path="/search/:make/:model/:year/:trim" element={<CarBodytype />} />
         <Route exact path="/search/:make/:model/:year/:trim/:bodytype" element={<CarImmobilizer />} />
       </Routes>
+      <br></br><footer><Footer /></footer>
     </Router>
   );
 }
