@@ -1,0 +1,17 @@
+.goose {
+    color: black;
+    padding: .75rem;
+    border-radius: .75rem;
+    margin: 2rem;
+    border: 2px solid black;
+    background-color: white;
+    transition-duration: 0.2s;
+    text-decoration: none;
+
+}
+
+.goose:hover {
+    opacity: 1;
+    background-color: black;
+    color: white;
+}

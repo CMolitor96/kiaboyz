@@ -25,12 +25,17 @@ export default function CarModel() {
 
     return (
         <div>
-            <div>{`What model is your ${make}?`}</div>
-            {carModel.map((car) => {
-                return (
-                    <Link key={car} className = 'btn btn-primary button' to={`/search/${make}/${car}`}>{car}</Link>
-                )
-            })}
+            <h2 style={{textAlign: 'center', margin: '1rem'}}>{`What model is your ${make}?`}</h2>
+            <div className='d-flex flex-row flex-wrap justify-content-center'>
+                
+                    {carModel.map((car) => {
+                        return (
+                            
+                                <Link key={car} className = 'goose' to={`/search/${make}/${car}`}>{car}</Link>
+                            
+                        )
+                    })}
+            </div>
         </div>
     );
 }

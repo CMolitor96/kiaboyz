@@ -19,12 +19,14 @@ export default function CarYear() {
     }, [make, model]);
     return (
         <div>
-            <div>{`What Year is your ${make} ${model}?`}</div>
+            <h2 style={{textAlign: 'center'}}>{`What Year is your ${make} ${model}?`}</h2>
+            <div className='d-flex flex-row flex-wrap justify-content-center'>
             {carYear.map((year) => {
                 return (
-                    <Link key={year} className = 'btn btn-primary button' to={`/search/${make}/${model}/${year}`}>{year}</Link>
+                    <Link key={year} className = 'goose' to={`/search/${make}/${model}/${year}`}>{year}</Link>
                 )
             })}
+            </div>
         </div>
     );
 };

@@ -116,10 +116,10 @@ INSERT INTO Hyundai (Year, Make, Model, Trim, Bodytype, Immobilizer, Option_for_
     (2016,'Hyundai','Elantra','Sport','Sport PZEV 4dr Sedan 2.0L 4cyl 6A','TRUE','TRUE'),
     (2017,'Hyundai','Elantra','SE','SE 4dr Sedan 2.0L 4cyl 6M','FALSE','FALSE'),
     (2017,'Hyundai','Elantra','SE','SE 4dr Sedan 2.0L 4cyl 6A','FALSE','FALSE'),
-    (2017,'Hyundai','Elantra','SE','SE PZEV 4dr Sedan w/Prod. End 10/16 2.0L 4cyl 6A','FALSE','FALSE'),
+    (2017,'Hyundai','Elantra','SE','SE PZEV 4dr Sedan Prod. End 10-16 2.0L 4cyl 6A','FALSE','FALSE'),
     (2017,'Hyundai','Elantra','Value','Value Edition 4dr Sedan 2.0L 4cyl 6A','TRUE','TRUE'),
     (2017,'Hyundai','Elantra','LIMITED','Limited 4dr Sedan 2.0L 4cyl 6A','TRUE','TRUE'),
-    (2017,'Hyundai','Elantra','LIMITED','Limited PZEV 4dr Sedan w/Prod. End 10/16 2.0L 4cyl 6A','TRUE','TRUE'),
+    (2017,'Hyundai','Elantra','LIMITED','Limited PZEV 4dr Sedan Prod. End 10-16 2.0L 4cyl 6A','TRUE','TRUE'),
     (2017,'Hyundai','Elantra','ECO','Eco 4dr Sedan 1.4L 4cyl Turbo 7AM','TRUE','TRUE'),
     (2017,'Hyundai','Elantra','SPORT','Sport 4dr Sedan 1.6L 4cyl Turbo 6M','TRUE','TRUE'),
     (2017,'Hyundai','Elantra','SPORT','Sport 4dr Sedan 1.6L 4cyl Turbo 7AM','TRUE','TRUE'),
@@ -155,11 +155,11 @@ INSERT INTO Hyundai (Year, Make, Model, Trim, Bodytype, Immobilizer, Option_for_
     (2020,'Hyundai','Elantra','SPORT','Sport 4dr Sedan 1.6L 4cyl Turbo 7AM','TRUE','TRUE'),
     (2021,'Hyundai','Elantra','SE','SE 4dr Sedan 2.0L 4cyl CVT','FALSE','FALSE'),
     (2021,'Hyundai','Elantra','SEL','SEL 4dr Sedan 2.0L 4cyl CVT','TRUE','TRUE'),
-    (2021,'Hyundai','Elantra','Blue','Blue 4dr Sedan 1.6L 4cyl gas/electric hybrid 6AM','TRUE','TRUE'),
+    (2021,'Hyundai','Elantra','Blue','Blue 4dr Sedan 1.6L 4cyl gas-electric hybrid 6AM','TRUE','TRUE'),
     (2021,'Hyundai','Elantra','N Line','N Line 4dr Sedan 1.6L 4cyl Turbo 6M','TRUE','TRUE'),
     (2021,'Hyundai','Elantra','N Line','N Line 4dr Sedan 1.6L 4cyl Turbo 7AM','TRUE','TRUE'),
     (2021,'Hyundai','Elantra','LIMITED','Limited 4dr Sedan 2.0L 4cyl CVT','TRUE','TRUE'),
-    (2021,'Hyundai','Elantra','LIMITED','Limited 4dr Sedan1.6L 4cyl gas/electric hybrid 6AM','TRUE','TRUE')
+    (2021,'Hyundai','Elantra','LIMITED','Limited 4dr Sedan1.6L 4cyl gas-electric hybrid 6AM','TRUE','TRUE')
 ;
 
 -- Hyundai Elantra GT
@@ -189,26 +189,26 @@ INSERT INTO Hyundai (Year, Make, Model, Trim, Bodytype, Immobilizer, Option_for_
 
 -- Hyundai Sonata Hybrid
 INSERT INTO Hyundai (Year, Make, Model, Trim, Bodytype, Immobilizer, Option_for_Immobilizer) VALUES
-    (2011,'Hyundai','Sonata Hybrid','Hybrid','4dr Sedan 2.4L 4cyl gas/electric hybrid 6A','TRUE','TRUE'),
-    (2012,'Hyundai','Sonata Hybrid','Hybrid','4dr Sedan 2.4L 4cyl gas/electric hybrid 6A','TRUE','TRUE'),
-    (2013,'Hyundai','Sonata Hybrid','Hybrid','4dr Sedan 2.4L 4cyl gas/electric hybrid 6A','TRUE','TRUE'),
-    (2013,'Hyundai','Sonata Hybrid','Limited Hybrid','Limited 4dr Sedan 2.4L 4cyl gas/electric hybrid 6A','TRUE','TRUE'),
-    (2014,'Hyundai','Sonata Hybrid','Hybrid','4dr Sedan 2.4L 4cyl gas/electric hybrid 6A','TRUE','TRUE'),
-    (2014,'Hyundai','Sonata Hybrid','Limited Hybrid','Limited 4dr Sedan 2.4L 4cyl gas/electric hybrid 6A','TRUE','TRUE'),
-    (2015,'Hyundai','Sonata Hybrid','Hybrid','4dr Sedan 2.4L 4cyl gas/electric hybrid 6A','TRUE','TRUE'),
-    (2015,'Hyundai','Sonata Hybrid','Limited Hybrid','Limited 4dr Sedan 2.4L 4cyl gas/electric hybrid 6A','TRUE','TRUE'),
-    (2016,'Hyundai','Sonata Hybrid','Hybrid','4dr Sedan 2.0L 4cyl gas/electric hybrid 6A','TRUE','TRUE'),
-    (2016,'Hyundai','Sonata Hybrid','Limited Hybrid','Limited 4dr Sedan 2.0L 4cyl gas/electric hybrid 6A','TRUE','TRUE'),
-    (2017,'Hyundai','Sonata Hybrid','Hybrid SE','SE 4dr Sedan 2.0L 4cyl gas/electric hybrid 6A','TRUE','TRUE'),
-    (2017,'Hyundai','Sonata Hybrid','Limited Hybrid','Limited 4dr Sedan 2.0L 4cyl gas/electric hybrid 6A','TRUE','TRUE'),
-    (2018,'Hyundai','Sonata Hybrid','Hybrid SE','SE 4dr Sedan 2.0L 4cyl gas/electric hybrid 6A','TRUE','TRUE'),
-    (2018,'Hyundai','Sonata Hybrid','Limited Hybrid','Limited 4dr Sedan 2.0L 4cyl gas/electric hybrid 6A','TRUE','TRUE'),
-    (2019,'Hyundai','Sonata Hybrid','Hybrid SE','SE 4dr Sedan 2.0L 4cyl gas/electric hybrid 6A','TRUE','TRUE'),
-    (2019,'Hyundai','Sonata Hybrid','Limited Hybrid','Limited 4dr Sedan 2.0L 4cyl gas/electric hybrid 6A','TRUE','TRUE'),
-    (2020,'Hyundai','Sonata Hybrid','SEL','SEL 4dr Sedan 2.0L 4cyl gas/electric hybrid 6A','TRUE','TRUE'),
-    (2020,'Hyundai','Sonata Hybrid','Limited Hybrid','Limited 4dr Sedan 2.0L 4cyl gas/electric hybrid 6A','TRUE','TRUE'),
-    (2021,'Hyundai','Sonata Hybrid','SEL','SEL 4dr Sedan 2.0L 4cyl gas/electric hybrid 6A','TRUE','TRUE'),
-    (2021,'Hyundai','Sonata Hybrid','Limited Hybrid','Limited 4dr Sedan 2.0L 4cyl gas/electric hybrid 6A','TRUE','TRUE')
+    (2011,'Hyundai','Sonata Hybrid','Hybrid','4dr Sedan 2.4L 4cyl gas-electric hybrid 6A','TRUE','TRUE'),
+    (2012,'Hyundai','Sonata Hybrid','Hybrid','4dr Sedan 2.4L 4cyl gas-electric hybrid 6A','TRUE','TRUE'),
+    (2013,'Hyundai','Sonata Hybrid','Hybrid','4dr Sedan 2.4L 4cyl gas-electric hybrid 6A','TRUE','TRUE'),
+    (2013,'Hyundai','Sonata Hybrid','Limited Hybrid','Limited 4dr Sedan 2.4L 4cyl gas-electric hybrid 6A','TRUE','TRUE'),
+    (2014,'Hyundai','Sonata Hybrid','Hybrid','4dr Sedan 2.4L 4cyl gas-electric hybrid 6A','TRUE','TRUE'),
+    (2014,'Hyundai','Sonata Hybrid','Limited Hybrid','Limited 4dr Sedan 2.4L 4cyl gas-electric hybrid 6A','TRUE','TRUE'),
+    (2015,'Hyundai','Sonata Hybrid','Hybrid','4dr Sedan 2.4L 4cyl gas-electric hybrid 6A','TRUE','TRUE'),
+    (2015,'Hyundai','Sonata Hybrid','Limited Hybrid','Limited 4dr Sedan 2.4L 4cyl gas-electric hybrid 6A','TRUE','TRUE'),
+    (2016,'Hyundai','Sonata Hybrid','Hybrid','4dr Sedan 2.0L 4cyl gas-electric hybrid 6A','TRUE','TRUE'),
+    (2016,'Hyundai','Sonata Hybrid','Limited Hybrid','Limited 4dr Sedan 2.0L 4cyl gas-electric hybrid 6A','TRUE','TRUE'),
+    (2017,'Hyundai','Sonata Hybrid','Hybrid SE','SE 4dr Sedan 2.0L 4cyl gas-electric hybrid 6A','TRUE','TRUE'),
+    (2017,'Hyundai','Sonata Hybrid','Limited Hybrid','Limited 4dr Sedan 2.0L 4cyl gas-electric hybrid 6A','TRUE','TRUE'),
+    (2018,'Hyundai','Sonata Hybrid','Hybrid SE','SE 4dr Sedan 2.0L 4cyl gas-electric hybrid 6A','TRUE','TRUE'),
+    (2018,'Hyundai','Sonata Hybrid','Limited Hybrid','Limited 4dr Sedan 2.0L 4cyl gas-electric hybrid 6A','TRUE','TRUE'),
+    (2019,'Hyundai','Sonata Hybrid','Hybrid SE','SE 4dr Sedan 2.0L 4cyl gas-electric hybrid 6A','TRUE','TRUE'),
+    (2019,'Hyundai','Sonata Hybrid','Limited Hybrid','Limited 4dr Sedan 2.0L 4cyl gas-electric hybrid 6A','TRUE','TRUE'),
+    (2020,'Hyundai','Sonata Hybrid','SEL','SEL 4dr Sedan 2.0L 4cyl gas-electric hybrid 6A','TRUE','TRUE'),
+    (2020,'Hyundai','Sonata Hybrid','Limited Hybrid','Limited 4dr Sedan 2.0L 4cyl gas-electric hybrid 6A','TRUE','TRUE'),
+    (2021,'Hyundai','Sonata Hybrid','SEL','SEL 4dr Sedan 2.0L 4cyl gas-electric hybrid 6A','TRUE','TRUE'),
+    (2021,'Hyundai','Sonata Hybrid','Limited Hybrid','Limited 4dr Sedan 2.0L 4cyl gas-electric hybrid 6A','TRUE','TRUE')
 ;
 -- Hyundai Sonata
 INSERT INTO Hyundai (Year, Make, Model, Trim, Bodytype, Immobilizer, Option_for_Immobilizer) VALUES
@@ -358,37 +358,37 @@ INSERT INTO Hyundai (Year, Make, Model, Trim, Bodytype, Immobilizer, Option_for_
 ;
 -- Hyundai Ioniq Hybrid
 INSERT INTO Hyundai (Year, Make, Model, Trim, Bodytype, Immobilizer, Option_for_Immobilizer) VALUES
-    (2017,'Hyundai','Ioniq Hybrid','Blue','Blue 4dr Hatchback 1.6L 4cyl gas/electric hybrid 6AM','TRUE','TRUE'),
-    (2017,'Hyundai','Ioniq Hybrid','SEL','SEL 4dr Hatchback1.6L 4cyl gas/electric hybrid 6AM','TRUE','TRUE'),
-    (2017,'Hyundai','Ioniq Hybrid','Limited','Limited 4dr Hatchback 1.6L 4cyl gas/electric hybrid 6AM','TRUE','TRUE'),
-    (2018,'Hyundai','Ioniq Hybrid','Blue','Blue 4dr Hatchback 1.6L 4cyl gas/electric hybrid 6AM','TRUE','TRUE'),
-    (2018,'Hyundai','Ioniq Hybrid','SEL','SEL 4dr Hatchback 1.6L 4cyl gas/electric hybrid 6AM','TRUE','TRUE'),
-    (2018,'Hyundai','Ioniq Hybrid','Limited','Limited 4dr Hatchback 1.6L 4cyl gas/electric hybrid 6AM','TRUE','TRUE'),
-    (2019,'Hyundai','Ioniq Hybrid','Blue','Blue 4dr Hatchback 1.6L 4cyl gas/electric hybrid 6AM','TRUE','TRUE'),
-    (2019,'Hyundai','Ioniq Hybrid','SEL','SEL 4dr Hatchback 1.6L 4cyl gas/electric hybrid 6AM','TRUE','TRUE'),
-    (2019,'Hyundai','Ioniq Hybrid','Limited','Limited 4dr Hatchback 1.6L 4cyl gas/electric hybrid 6AM','TRUE','TRUE'),
-    (2020,'Hyundai','Ioniq Hybrid','Blue','Blue 4dr Hatchback 1.6L 4cyl gas/electric hybrid 6AM','TRUE','TRUE'),
-    (2020,'Hyundai','Ioniq Hybrid','SE','SE 4dr Hatchback 1.6L 4cyl gas/electric hybrid 6AM','TRUE','TRUE'),
-    (2020,'Hyundai','Ioniq Hybrid','SEL','SEL 4dr Hatchback 1.6L 4cyl gas/electric hybrid 6AM','TRUE','TRUE'),
-    (2020,'Hyundai','Ioniq Hybrid','Limited','Limited 4dr Hatchback 1.6L 4cyl gas/electric hybrid 6AM','TRUE','TRUE'),
-    (2021,'Hyundai','Ioniq Hybrid','Blue','Blue 4dr Hatchback 1.6L 4cyl gas/electric hybrid 6AM','TRUE','TRUE'),
-    (2021,'Hyundai','Ioniq Hybrid','SE','SE 4dr Hatchback 1.6L 4cyl gas/electric hybrid 6AM','TRUE','TRUE'),
-    (2021,'Hyundai','Ioniq Hybrid','SEL','SEL 4dr Hatchback 1.6L 4cyl gas/electric hybrid 6AM','TRUE','TRUE'),
-    (2021,'Hyundai','Ioniq Hybrid','Limited','Limited 4dr Hatchback 1.6L 4cyl gas/electric hybrid 6AM','TRUE','TRUE')
+    (2017,'Hyundai','Ioniq Hybrid','Blue','Blue 4dr Hatchback 1.6L 4cyl gas-electric hybrid 6AM','TRUE','TRUE'),
+    (2017,'Hyundai','Ioniq Hybrid','SEL','SEL 4dr Hatchback1.6L 4cyl gas-electric hybrid 6AM','TRUE','TRUE'),
+    (2017,'Hyundai','Ioniq Hybrid','Limited','Limited 4dr Hatchback 1.6L 4cyl gas-electric hybrid 6AM','TRUE','TRUE'),
+    (2018,'Hyundai','Ioniq Hybrid','Blue','Blue 4dr Hatchback 1.6L 4cyl gas-electric hybrid 6AM','TRUE','TRUE'),
+    (2018,'Hyundai','Ioniq Hybrid','SEL','SEL 4dr Hatchback 1.6L 4cyl gas-electric hybrid 6AM','TRUE','TRUE'),
+    (2018,'Hyundai','Ioniq Hybrid','Limited','Limited 4dr Hatchback 1.6L 4cyl gas-electric hybrid 6AM','TRUE','TRUE'),
+    (2019,'Hyundai','Ioniq Hybrid','Blue','Blue 4dr Hatchback 1.6L 4cyl gas-electric hybrid 6AM','TRUE','TRUE'),
+    (2019,'Hyundai','Ioniq Hybrid','SEL','SEL 4dr Hatchback 1.6L 4cyl gas-electric hybrid 6AM','TRUE','TRUE'),
+    (2019,'Hyundai','Ioniq Hybrid','Limited','Limited 4dr Hatchback 1.6L 4cyl gas-electric hybrid 6AM','TRUE','TRUE'),
+    (2020,'Hyundai','Ioniq Hybrid','Blue','Blue 4dr Hatchback 1.6L 4cyl gas-electric hybrid 6AM','TRUE','TRUE'),
+    (2020,'Hyundai','Ioniq Hybrid','SE','SE 4dr Hatchback 1.6L 4cyl gas-electric hybrid 6AM','TRUE','TRUE'),
+    (2020,'Hyundai','Ioniq Hybrid','SEL','SEL 4dr Hatchback 1.6L 4cyl gas-electric hybrid 6AM','TRUE','TRUE'),
+    (2020,'Hyundai','Ioniq Hybrid','Limited','Limited 4dr Hatchback 1.6L 4cyl gas-electric hybrid 6AM','TRUE','TRUE'),
+    (2021,'Hyundai','Ioniq Hybrid','Blue','Blue 4dr Hatchback 1.6L 4cyl gas-electric hybrid 6AM','TRUE','TRUE'),
+    (2021,'Hyundai','Ioniq Hybrid','SE','SE 4dr Hatchback 1.6L 4cyl gas-electric hybrid 6AM','TRUE','TRUE'),
+    (2021,'Hyundai','Ioniq Hybrid','SEL','SEL 4dr Hatchback 1.6L 4cyl gas-electric hybrid 6AM','TRUE','TRUE'),
+    (2021,'Hyundai','Ioniq Hybrid','Limited','Limited 4dr Hatchback 1.6L 4cyl gas-electric hybrid 6AM','TRUE','TRUE')
 ;
 
 -- Hyundai Ioniq PlugIn Hybrid
 INSERT INTO Hyundai (Year, Make, Model, Trim, Bodytype, Immobilizer, Option_for_Immobilizer) VALUES
-    (2018,'Hyundai','Ioniq PlugIn Hybrid','Base','4dr Hatchback 1.6L 4cyl gas/electric hybrid 6AM','TRUE','TRUE'),
-    (2018,'Hyundai','Ioniq PlugIn Hybrid','Limited','Limited 4dr Hatchback 1.6L 4cyl gas/electric hybrid 6AM','TRUE','TRUE'),
-    (2019,'Hyundai','Ioniq PlugIn Hybrid','Base','4dr Hatchback 1.6L 4cyl gas/electric hybrid 6AM','TRUE','TRUE'),
-    (2019,'Hyundai','Ioniq PlugIn Hybrid','Limited','Limited 4dr Hatchback 1.6L 4cyl gas/electric hybrid 6AM','TRUE','TRUE'),
-    (2020,'Hyundai','Ioniq PlugIn Hybrid','SE','SE 4dr Hatchback 1.6L 4cyl gas/electric plug-in hybrid 6AM','TRUE','TRUE'),
-    (2020,'Hyundai','Ioniq PlugIn Hybrid','SEL','SEL 4dr Hatchback 1.6L 4cyl gas/electric plug-in hybrid 6AM','TRUE','TRUE'),
-    (2020,'Hyundai','Ioniq PlugIn Hybrid','Limited','Limited 4dr Hatchback 1.6L 4cyl gas/electric plug-in hybrid 6AM','TRUE','TRUE'),
-    (2021,'Hyundai','Ioniq PlugIn Hybrid','SE','SE 4dr Hatchback 1.6L 4cyl gas/electric plug-in hybrid 6AM','TRUE','TRUE'),
-    (2021,'Hyundai','Ioniq PlugIn Hybrid','SEL','SEL 4dr Hatchback 1.6L 4cyl gas/electric plug-in hybrid 6AM','TRUE','TRUE'),
-    (2021,'Hyundai','Ioniq PlugIn Hybrid','Limited','Limited 4dr Hatchback 1.6L 4cyl gas/electric plug-in hybrid 6AM','TRUE','TRUE')
+    (2018,'Hyundai','Ioniq PlugIn Hybrid','Base','4dr Hatchback 1.6L 4cyl gas-electric hybrid 6AM','TRUE','TRUE'),
+    (2018,'Hyundai','Ioniq PlugIn Hybrid','Limited','Limited 4dr Hatchback 1.6L 4cyl gas-electric hybrid 6AM','TRUE','TRUE'),
+    (2019,'Hyundai','Ioniq PlugIn Hybrid','Base','4dr Hatchback 1.6L 4cyl gas-electric hybrid 6AM','TRUE','TRUE'),
+    (2019,'Hyundai','Ioniq PlugIn Hybrid','Limited','Limited 4dr Hatchback 1.6L 4cyl gas-electric hybrid 6AM','TRUE','TRUE'),
+    (2020,'Hyundai','Ioniq PlugIn Hybrid','SE','SE 4dr Hatchback 1.6L 4cyl gas-electric plug-in hybrid 6AM','TRUE','TRUE'),
+    (2020,'Hyundai','Ioniq PlugIn Hybrid','SEL','SEL 4dr Hatchback 1.6L 4cyl gas-electric plug-in hybrid 6AM','TRUE','TRUE'),
+    (2020,'Hyundai','Ioniq PlugIn Hybrid','Limited','Limited 4dr Hatchback 1.6L 4cyl gas-electric plug-in hybrid 6AM','TRUE','TRUE'),
+    (2021,'Hyundai','Ioniq PlugIn Hybrid','SE','SE 4dr Hatchback 1.6L 4cyl gas-electric plug-in hybrid 6AM','TRUE','TRUE'),
+    (2021,'Hyundai','Ioniq PlugIn Hybrid','SEL','SEL 4dr Hatchback 1.6L 4cyl gas-electric plug-in hybrid 6AM','TRUE','TRUE'),
+    (2021,'Hyundai','Ioniq PlugIn Hybrid','Limited','Limited 4dr Hatchback 1.6L 4cyl gas-electric plug-in hybrid 6AM','TRUE','TRUE')
 ;
 
 -- Hyundai Ioniq Electric
@@ -626,9 +626,9 @@ INSERT INTO Hyundai (Year, Make, Model, Trim, Bodytype, Immobilizer, Option_for_
 
 -- Hyundai Santa Fe Hybrid
 INSERT INTO Hyundai (Year, Make, Model, Trim, Bodytype, Immobilizer, Option_for_Immobilizer) VALUES
-    (2021,'Hyundai','Santa Fe Hybrid','Blue','Blue 4dr SUV AWD 1.6L 4cyl Turbo gas/electric hybrid 6A','TRUE','TRUE'),
-    (2021,'Hyundai','Santa Fe Hybrid','SEL','SEL Premium 4dr SUV AWD 1.6L 4cyl Turbo gas/electric hybrid 6A','TRUE','TRUE'),
-    (2021,'Hyundai','Santa Fe Hybrid','Limited','Limited 4dr SUV AWD 1.6L 4cyl Turbo gas/electric hybrid 6A','TRUE','TRUE')
+    (2021,'Hyundai','Santa Fe Hybrid','Blue','Blue 4dr SUV AWD 1.6L 4cyl Turbo gas-electric hybrid 6A','TRUE','TRUE'),
+    (2021,'Hyundai','Santa Fe Hybrid','SEL','SEL Premium 4dr SUV AWD 1.6L 4cyl Turbo gas-electric hybrid 6A','TRUE','TRUE'),
+    (2021,'Hyundai','Santa Fe Hybrid','Limited','Limited 4dr SUV AWD 1.6L 4cyl Turbo gas-electric hybrid 6A','TRUE','TRUE')
 ;
 
 -- Hyundai Santa Fe
@@ -836,22 +836,22 @@ INSERT INTO Kia (Year, Make, Model, Trim, Bodytype, Immobilizer, Option_for_Immo
     (2011,'Kia','Optima','EX','EX 4dr Sedan 2.4L 4cyl 6A','TRUE','TRUE'),
     (2011,'Kia','Optima','EX','EX Turbo 4dr Sedan 2.0L 4cyl Turbo 6A','TRUE','TRUE'),
     (2011,'Kia','Optima','SX','SX 4dr Sedan 2.0L 4cyl Turbo 6A','TRUE','TRUE'),
-    (2011,'Kia','Optima','Hybrid','Hybrid 4dr Sedan 2.4L 4cyl gas/electric hybrid 6A','TRUE','TRUE'),
+    (2011,'Kia','Optima','Hybrid','Hybrid 4dr Sedan 2.4L 4cyl gas-electric hybrid 6A','TRUE','TRUE'),
     (2012,'Kia','Optima','LX','LX 4dr Sedan 2.4L 4cyl 6M','FALSE','FALSE'),
     (2012,'Kia','Optima','LX','LX 4dr Sedan 2.4L 4cyl 6A','FALSE','TRUE'),
     (2012,'Kia','Optima','EX','EX 4dr Sedan 2.4L 4cyl 6A','TRUE','TRUE'),
     (2012,'Kia','Optima','EX','EX Turbo 4dr Sedan 2.0L 4cyl Turbo 6A','TRUE','TRUE'),
     (2012,'Kia','Optima','SX','SX 4dr Sedan 2.0L 4cyl Turbo 6A','TRUE','TRUE'),
-    (2012,'Kia','Optima','Hybrid','Hybrid 4dr Sedan 2.4L 4cyl gas/electric hybrid 6A','TRUE','TRUE'),
+    (2012,'Kia','Optima','Hybrid','Hybrid 4dr Sedan 2.4L 4cyl gas-electric hybrid 6A','TRUE','TRUE'),
     (2013,'Kia','Optima','LX','LX 4dr Sedan 2.4L 4cyl 6A','FALSE','TRUE'),
-    (2013,'Kia','Optima','LX','Hybrid 4dr Sedan 2.4L 4cyl gas/electric hybrid 6A','TRUE','TRUE'),
+    (2013,'Kia','Optima','LX','Hybrid 4dr Sedan 2.4L 4cyl gas-electric hybrid 6A','TRUE','TRUE'),
     (2013,'Kia','Optima','EX','EX 4dr Sedan 2.4L 4cyl 6A','TRUE','TRUE'),
-    (2013,'Kia','Optima','EX','Hybrid 4dr Sedan 2.4L 4cyl gas/electric hybrid 6A','TRUE','TRUE'),
+    (2013,'Kia','Optima','EX','Hybrid 4dr Sedan 2.4L 4cyl gas-electric hybrid 6A','TRUE','TRUE'),
     (2013,'Kia','Optima','SX','SX 4dr Sedan 2.0L 4cyl Turbo 6A','TRUE','TRUE'),
     (2014,'Kia','Optima','LX','LX 4dr Sedan 2.4L 4cyl 6A','FALSE','FALSE'),
-    (2014,'Kia','Optima','LX','Hybrid 4dr Sedan 2.4L 4cyl gas/electric hybrid 6A','TRUE','TRUE'),
+    (2014,'Kia','Optima','LX','Hybrid 4dr Sedan 2.4L 4cyl gas-electric hybrid 6A','TRUE','TRUE'),
     (2014,'Kia','Optima','EX','EX 4dr Sedan 2.4L 4cyl 6A','TRUE','TRUE'),
-    (2014,'Kia','Optima','EX','Hybrid 4dr Sedan 2.4L 4cyl gas/electric hybrid 6A','TRUE','TRUE'),
+    (2014,'Kia','Optima','EX','Hybrid 4dr Sedan 2.4L 4cyl gas-electric hybrid 6A','TRUE','TRUE'),
     (2014,'Kia','Optima','SX','SX 4dr Sedan 2.4L 4cyl 6A','TRUE','TRUE'),
     (2014,'Kia','Optima','SX','SX 4dr Sedan 2.0L 4cyl Turbo 6A','TRUE','TRUE'),
     (2014,'Kia','Optima','SXL','SXL Turbo 4dr Sedan 2.0L 4cyl Turbo 6A','TRUE','TRUE'),
