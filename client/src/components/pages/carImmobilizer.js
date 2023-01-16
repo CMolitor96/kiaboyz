@@ -23,25 +23,29 @@ export default function CarImmobilizer() {
 
     return (
         <div>
-            <p>{`Can your ${year} ${make} ${model} ${trim} with bodytype ${bodytype} get stolen?`}</p>
-            {carImmobilizer.map((immobilizer) => {
-                if (immobilizer.Immobilizer === 'TRUE') {
+            <h2 style={{textAlign: 'center'}}>{`Can your ${year} ${make} ${model} ${trim} with bodytype ${bodytype} get stolen?`}</h2>
+            <div className='d-flex flex-row flex-wrap justify-content-center'>
+            {carImmobilizer.map((car) => {
+                if (car.Immobilizer === 'TRUE') {
                     return (
-                        <p key={immobilizer.Immobilizer}>You car is safe</p>
+                        <p key={car.Immobilizer}>You car is safe</p>
                     );
-                } else if (immobilizer.Option_for_Immobilizer === 'TRUE') {
+                } else if (car.Option_for_Immobilizer === 'TRUE') {
                     return (
-                        <p key={immobilizer.Immobilizer}>Your car may be stolen</p>
+                        <p key={car.Immobilizer}>Your car may be stolen</p>
                     )
                 }
                 return (
-                    <p key={immobilizer.Immobilizer}>Your car gone get got</p>
+                    <p key={car.Immobilizer}>Your car gone get got</p>
                 )
                     
             })}
+            <div className='d-flex flex-row flex-wrap justify-content-center'>
+                <Link key={trim} className='goose' to={`/search/${make}/${model}/${year}/${trim}`}>Go Back to Bodytype</Link>
+            <Link key={bodytype} className='goose' to={`/`}>Return to home</Link>
 
-            <Link key={bodytype} className='btn btn-primary button' to={`/`}>Return to home</Link>
-            
+            </div>
+            </div>
             
         </div>
     )

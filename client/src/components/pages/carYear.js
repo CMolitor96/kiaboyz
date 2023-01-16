@@ -21,6 +21,9 @@ export default function CarYear() {
         <div>
             <h2 style={{textAlign: 'center'}}>{`What Year is your ${make} ${model}?`}</h2>
             <div className='d-flex flex-row flex-wrap justify-content-center'>
+                <Link key={model} className='goose' to={`/search/${make}`}>Go Back to Model</Link>
+            </div>
+            <div className='d-flex flex-row flex-wrap justify-content-center'>
             {carYear.map((year) => {
                 return (
                     <Link key={year} className = 'goose' to={`/search/${make}/${model}/${year}`}>{year}</Link>

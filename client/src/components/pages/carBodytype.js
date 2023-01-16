@@ -21,12 +21,17 @@ export default function CarBodytype() {
 
     return (
         <div>
-            <p>{`What Bodytype is your ${year} ${make} ${model} ${trim}?`}</p>
+            <h2 style={{textAlign: 'center'}}>{`What Bodytype is your ${year} ${make} ${model} ${trim}?`}</h2>
+            <div className='d-flex flex-row flex-wrap justify-content-center'>
+            <Link key={trim} className='goose' to={`/search/${make}/${model}/${year}`}>Go Back to Trim</Link>
+            </div>
+            <div className='d-flex flex-row flex-wrap justify-content-center'>
             {carBodytype.map(bodytype => {
                 return (
-                    <Link key={bodytype} className='btn btn-primary button' to={`/search/${make}/${model}/${year}/${trim}/${bodytype}`}>{bodytype}</Link>
+                    <Link key={bodytype} className='goose' to={`/search/${make}/${model}/${year}/${trim}/${bodytype}`}>{bodytype}</Link>
                 )
             })}
+            </div>
         </div>
     )
 }

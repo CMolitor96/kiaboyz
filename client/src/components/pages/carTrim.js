@@ -22,12 +22,17 @@ export default function CarTrim() {
 
     return (
         <div>
-            <div>{`What trim level is your ${make} ${model} ${year}?`}</div>
+            <h2 style={{textAlign: 'center'}}>{`What trim level is your ${year} ${make} ${model}?`}</h2>
+            <div className='d-flex flex-row flex-wrap justify-content-center'>
+                <Link key={year} className='goose' to={`/search/${make}/${model}`}>Go Back to Year</Link>
+            </div>
+            <div className='d-flex flex-row flex-wrap justify-content-center'>
             {carTrim.map((trim) => {
                 return (
-                    <Link key={trim} className='btn btn-primary button' to={`/search/${make}/${model}/${year}/${trim}`}>{trim}</Link>
+                    <Link key={trim} className='goose' to={`/search/${make}/${model}/${year}/${trim}`}>{trim}</Link>
                 )
             })}
+            </div>
         </div>
     );
 
