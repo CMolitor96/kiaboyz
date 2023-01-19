@@ -8,7 +8,10 @@ export default function Homepage() {
 
   const styles = {
     img: {
-      boxShadow: '5px 10px 10px'
+      border: '2px solid black',
+      boxShadow: '5px 10px  10px#888888',
+      padding: '0rem',
+      borderRadius: '2rem',
     },
   };
 
@@ -23,7 +26,7 @@ export default function Homepage() {
             <Link className='goose' to={`/search`} style={{fontFamily: 'Work Sans', fontWeight: '900', fontStyle: 'normal'}}>Search for your car</Link>
           </div>
         </div>
-        <div className='row'>
+        <div className='row' style={{margin: '1rem'}}>
           <img style={styles.img} src={Kiaboyz} alt='Kids stealing a Kia with text, find out if your kia or hyundai can get jacked'></img>
         </div>
 

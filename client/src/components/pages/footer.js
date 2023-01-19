@@ -11,7 +11,7 @@ export default function Footer() {
     }
 
     return (
-        <div className='container'>
+        <div className='container'><br></br>
             <hr></hr>
             <section>
                 <h3>Who are the KiaBoyz?</h3>

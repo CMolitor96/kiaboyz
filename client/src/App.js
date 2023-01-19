@@ -9,6 +9,7 @@ import CarTrim from "./components/pages/carTrim";
 import CarBodytype from "./components/pages/carBodytype";
 import CarImmobilizer from "./components/pages/carImmobilizer";
 import Footer from "./components/pages/footer";
+import './styles/App.css'
 
 
 function App() {
