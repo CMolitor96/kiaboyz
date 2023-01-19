@@ -24,7 +24,7 @@ function App() {
         <Route exact path="/search/:make/:model/:year/:trim" element={<CarBodytype />} />
         <Route exact path="/search/:make/:model/:year/:trim/:bodytype" element={<CarImmobilizer />} />
       </Routes>
-      <br></br><footer><Footer /></footer>
+      <footer><Footer /></footer>
     </Router>
   );
 }

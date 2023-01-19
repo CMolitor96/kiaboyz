@@ -41,7 +41,7 @@ export default function CarModel() {
                     <Link key={make} className='btn btn-primary button' style={{margin: '1rem'}} to={`/search`}>Go Back to Make</Link>
                 </div>
                 <div className='row justify-content-center' style={{ textAlign: 'center' }}>
-                    <div className='col'>
+                    <div className='col' style={{margin: '1rem'}}>
                         <select className="form-select" aria-label="Default select example" onChange={handleValueChange}>
                             <option value='Choose'>Choose your Model</option>
                             {carModel.map((car) => {

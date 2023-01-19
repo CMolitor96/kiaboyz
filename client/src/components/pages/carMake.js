@@ -4,7 +4,6 @@ import '../../styles/button.css'
 
 export default function CarMake() {
 
-    // const viewport = () => {
     const [width, setWidth] = useState(window.innerWidth);
     const breakpoint = 620;
     useEffect(() => {
@@ -36,10 +35,8 @@ export default function CarMake() {
                 {value === 'Choose'? (
                     <div></div>
                     ) : (
-                        <div className='row justify-content-center' style={{margin: '1rem'}}>
-                            <div className='col-2'>
-                                <Link className='goose' to={`/search/${value}`}>Next</Link>
-                            </div>
+                        <div className='d-flex flex-row flex-wrap justify-content-center' style={{margin: '.5rem'}}>
+                                <Link className='goose' to={`/search/${value}`}>Next</Link>                            
                         </div>
                     )
                 }
