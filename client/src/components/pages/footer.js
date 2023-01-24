@@ -31,8 +31,8 @@ export default function Footer() {
                     project as a fellow affected Hyundai owner, please see the legal disclaimer for 
                     more information. 
                 </p>
-                <div className='row'>
-                    <iframe src="https://www.youtube.com/embed/fbTrLyqL_nw" title="Kiaboyz Documentary"></iframe>
+                <div className='d-flex row justify-content-center' style={{height: '20rem'}}>
+                    <iframe className='col-10' allow='fullscreen' src="https://www.youtube.com/embed/fbTrLyqL_nw" title="Kiaboyz Documentary"></iframe>
                 </div>
                 
             </section>
