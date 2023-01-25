@@ -37,7 +37,7 @@ export default function CarBodytype() {
             <div>
                 <h2 style={{ textAlign: 'center', margin: '1rem' }}>{`What Bodytype is your ${year} ${make} ${model} ${trim}?`}</h2>
                 <div className='d-flex flex-row flex-wrap justify-content-center'>
-                    <Link key={trim} className='btn btn-primary button' style={{ margin: '1rem' }} to={`/search/${make}/${model}/${year}`}>Go Back to Trim</Link>
+                    <Link key={trim} className='goose' style={{ margin: '1rem' }} to={`/search/${make}/${model}/${year}`}>Go Back to Trim</Link>
                 </div>
                 <div className='row justify-content-center' style={{ textAlign: 'center' }}>
                     <div className='col' style={{ margin: '1rem' }}>

@@ -8,6 +8,8 @@ import CarYear from './components/pages/carYear';
 import CarTrim from "./components/pages/carTrim";
 import CarBodytype from "./components/pages/carBodytype";
 import CarImmobilizer from "./components/pages/carImmobilizer";
+import Disclaimer from "./components/pages/disclaimer";
+import Faq from "./components/pages/faq";
 import Footer from "./components/pages/footer";
 import './styles/App.css'
 
@@ -18,6 +20,8 @@ function App() {
       <header><Header /></header><br></br>
       <Routes>
         <Route exact path="/" element={<Homepage />} />
+        <Route exact path="/disclaimer" element={<Disclaimer />} />
+        <Route exact path="/faq" element={<Faq />} />
         <Route exact path="/search" element={<CarMake />} />
         <Route exact path="/search/:make" element={<CarModel />} />
         <Route exact path="/search/:make/:model" element={<CarYear />} />
