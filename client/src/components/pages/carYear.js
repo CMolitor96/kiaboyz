@@ -10,7 +10,6 @@ export default function CarYear() {
         window.addEventListener('resize', handleWindow);
         return () => window.removeEventListener('resize', handleWindow);
     }, []);
-    // console.log(width);
     const [value, setValue] = useState('Choose');
     const handleValueChange = (event) => {
         setValue(event.target.value);

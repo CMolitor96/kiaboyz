@@ -69,7 +69,7 @@ module.exports = {
                 if (infoArray.length === 0) {
                     return res.status(404).json({message: `No results found for ${params.make} where model = ${params.model} and year = ${params.year} and trim = ${params.trim} and bodytype = ${params.bodytype}`});
                 } else {
-                    res.json(infoArray);
+                    res.json(info[0]);
                 }
             }
         })
