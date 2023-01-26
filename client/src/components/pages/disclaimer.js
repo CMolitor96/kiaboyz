@@ -5,13 +5,14 @@ export default function Disclaimer() {
         <div className='container'>
             <h1 style={{textAlign: 'center'}}>Legal Disclaimer</h1>
             <p style={{margin: '1rem'}}>This website was made by scouring car manuals for every single Kia and Hyundai from 2011 - 2021
-                and checking to see whether or not they include an engine immobilizer or have the option for one.
+                and checking to see whether or not they include an engine immobilizer or have the option for one. Please note that
+                only Hyundais and Kias produced in the United States were considered in the making of this website.
                 Although Hyundai and Kia have been quiet on which of their cars are affected by the KiaBoyz, the general
                 consensus is all models from 2011 - 2021 with a turn key ignition do not have an immobilizer. 
                 If a car came stock with an immobilizer, I labeled it as safe, if a car included the
                 option for an immobilizer but did not come stock with one, I labeled it as maybe safe, and if a car 
                 did not come stock nor have the option for an immobilizer, I labeled it as not safe. The majority of 
-                data and car manuals I looked at came from <a href="https://www.edmunds.com/" rel="noreferrer noopener" target="_blank">Edmunds.com</a><span> </span>
+                data and car manuals I looked at came from <a href="https://www.edmunds.com/" rel="noreferrer noopener nofollow" target="_blank">Edmunds.com</a><span> </span>
                 where you can search for your car and look at the specs for yourself. I simply compiled data for 
                 every car including make, model, year, trim, bodytype, and immobilizer into an 
                 SQL file, and depending on user input, query the database until the user finds their car, at which 

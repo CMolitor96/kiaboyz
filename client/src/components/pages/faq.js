@@ -26,7 +26,7 @@ export default function Faq() {
                 law enforcement, and from Hyundai and Kia themselves. Law enforcement have encouraged the purchase and
                 installation of <a href='https://www.amazon.com/Antitheft-Locking-Devices/b?ie=UTF8&node=15735171' target="_blank" rel="noopener noreferrer">steering wheel locks</a> 
                 <span> </span>which can be purchased on Amazon. Hyundai has partnered up with Compustar to release a <span> </span>
-                <a href='https://www.compustar.com/systems/hyundai-remote-start-system/' target="_blank" rel="noopener noreferrer">security kit</a> for affected vehicles. 
+                <a href='https://www.compustar.com/systems/hyundai-remote-start-system/' target="_blank" rel="noopener noreferrer nofollow">security kit</a> for affected vehicles. 
                 The kit is purported to cost around $500 after labor fees. Other options include buying an aftermarket immobilizer,
                 many of which can be found online or in big box stores. 
             </p>
