@@ -2,8 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Kiaboyz from '../assets/kiaboyz.jpeg';
 
-
-
 export default function Homepage() {
 
   const styles = {
@@ -15,8 +13,6 @@ export default function Homepage() {
     },
   };
 
-
-
   return (
     <div>
       <div className='container'>
@@ -27,7 +23,7 @@ export default function Homepage() {
           </div>
         </div>
         <div className='row' style={{margin: '1rem'}}>
-          <img style={styles.img} src={Kiaboyz} alt='Kids stealing a Kia with text, find out if your kia or hyundai can get jacked'></img>
+          <img style={styles.img} src={Kiaboyz} alt='Kids stealing a Kia with caption, find out if your kia or hyundai can get jacked'></img>
         </div>
 
       </div>

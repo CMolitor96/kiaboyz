@@ -42,42 +42,49 @@ export default function CarImmobilizer() {
         if (carImmobilizer.Immobilizer === 'TRUE') {
             return (
                 <section style={{margin: '1rem'}}>
-                <h3 key={carImmobilizer.Immobilizer} style={{color: 'green', textAlign: 'center'}}>You car is safe!</h3>
-                <p>Your car comes stock with an engine immobilizer, an important engine piece that
-                    makes it difficult to steal by the KiaBoyz. This does not mean that no one may ever try
-                    and steal your car, but an engine immobilizer is a great theft deterrent.
-                </p>
-                {supportNumber()}
+                    <h3 key={carImmobilizer.Immobilizer} style={{color: 'green', textAlign: 'center'}}>You car is safe!</h3>
+                    <p>Your car comes stock with an engine immobilizer, an important engine piece that
+                        makes it difficult to steal by the KiaBoyz. This does not mean that no one may ever try
+                        and steal your car, but an engine immobilizer is a great theft deterrent.
+                    </p>
+                    {supportNumber()}
                 </section>
             );
         } else if (carImmobilizer.Option_for_Immobilizer === 'TRUE') {
             return (
                 <section style={{margin: '1rem'}}>
-                <h3 key={carImmobilizer.Option_for_Immobilizer} style={{color: '#DEC20B', textAlign: 'center'}}>You car may be stolen!</h3>
-                <p>This means that your car did not originally come stock with an engine immobilizer, 
-                    but at the time of purchase by the original owner there was an option to add one. 
-                    So this car may or may not have an engine immobilizer. The only way to find out
-                    for sure is to contact your respective car manufacturer (see below). All you have to do is
-                    provide your Vehicle Identification Number (VIN) and your car manufacturer can look
-                    up if your car has an engine immobilizer or not. 
-                </p>
-                {supportNumber()}
+                    <h3 key={carImmobilizer.Option_for_Immobilizer} style={{color: '#DEC20B', textAlign: 'center'}}>You car may be stolen!</h3>
+                    <p>This means that your car did not originally come stock with an engine immobilizer, 
+                        but at the time of purchase by the original owner there was an option to add one. 
+                        So this car may or may not have an engine immobilizer. The only way to find out
+                        for sure is to contact your respective car manufacturer (see below). All you have to do is
+                        provide your Vehicle Identification Number (VIN) and your car manufacturer can look
+                        up if your car has an engine immobilizer or not. 
+                    </p>
+                    {supportNumber()}
                 </section>
             )
         } else {
             return (
                 <section style={{margin: '1rem'}}>
-                        <h3 key={carImmobilizer.Immobilizer} style={{color: 'red', textAlign: 'center'}}>Your car is not safe!</h3>
-                        <p>Your car is very susceptible to theft by the KiaBoyz. Your car does not have a stock
-                            engine immobilizer, nor did it have an option to add one at the time of original purchase.
-                        </p>
-                        {supportNumber()}
+                    <h3 key={carImmobilizer.Immobilizer} style={{color: 'red', textAlign: 'center'}}>Your car is not safe!</h3>
+                    <p>Your car is very susceptible to theft by the KiaBoyz. Your car does not have a stock
+                        engine immobilizer, nor did it have an option to add one at the time of original purchase.
+                    </p>
+                    <h4>Next Steps</h4>
+                    <p>There have been multiple strategies to mitigate the risk of your car being stolen, proposed by
+                        law enforcement, and from Hyundai and Kia themselves. Law enforcement have encouraged the purchase and
+                        installation of <a href='https://www.amazon.com/Antitheft-Locking-Devices/b?ie=UTF8&node=15735171' target="_blank" rel="noopener noreferrer">steering wheel locks</a> 
+                        <span> </span>which can be purchased on Amazon. Hyundai has partnered up with Compustar to release a <span> </span>
+                        <a href='https://www.compustar.com/systems/hyundai-remote-start-system/' target="_blank" rel="noopener noreferrer">security kit</a> for affected vehicles. 
+                        The kit is purported to cost around $500 after labor fees. Other options include buying an aftermarket immobilizer,
+                        many of which can be found online or in big box stores. 
+                    </p>
+                    {supportNumber()}
                 </section>
             )
         }
-
     }
-
     return (
         <div>
             <h2 style={{textAlign: 'center', margin: '1rem'}}>{`Can your ${year} ${make} ${model} ${trim} with bodytype ${bodytype} get stolen?`}</h2>
@@ -88,7 +95,6 @@ export default function CarImmobilizer() {
                 <Link key={trim} className='goose' to={`/search/${make}/${model}/${year}/${trim}`}>Go Back to Bodytype</Link>
                 <Link key={bodytype} className='goose' to={`/`}>Return to home</Link>
             </div>
-            
         </div>
     );
 }

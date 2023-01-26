@@ -36,7 +36,7 @@ export default function CarMake() {
                     <div></div>
                     ) : (
                         <div className='d-flex flex-row flex-wrap justify-content-center' style={{margin: '.5rem'}}>
-                                <Link className='goose' to={`/search/${value}`}>Next</Link>                            
+                            <Link className='goose' to={`/search/${value}`}>Next</Link>                            
                         </div>
                     )
                 }

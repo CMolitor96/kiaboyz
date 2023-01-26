@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-
 import { searchCarMake } from '../../utils/API';
 
 export default function CarModel() {
@@ -12,7 +11,6 @@ export default function CarModel() {
         window.addEventListener('resize', handleWindow);
         return () => window.removeEventListener('resize', handleWindow);
     }, []);
-    // console.log(width);
     const [value, setValue] = useState('Choose');
     const handleValueChange = (event) => {
         setValue(event.target.value);
@@ -38,7 +36,7 @@ export default function CarModel() {
             <div>
                 <h2 style={{textAlign: 'center', margin: '1rem'}}>{`What model is your ${make}?`}</h2>
                 <div className='d-flex flex-row flex-wrap justify-content-center'>
-                    <Link key={make} className='goose' style={{margin: '1rem'}} to={`/search`}>Go Back to Make</Link>
+                    <Link key={make} className='retreat' style={{margin: '1rem'}} to={`/search`}>Go Back to Make</Link>
                 </div>
                 <div className='row justify-content-center' style={{ textAlign: 'center' }}>
                     <div className='col' style={{margin: '1rem'}}>
@@ -67,7 +65,7 @@ export default function CarModel() {
             <div>
                 <h2 style={{textAlign: 'center', margin: '1rem'}}>{`What model is your ${make}?`}</h2>
                 <div className='d-flex flex-row flex-wrap justify-content-center'>
-                    <Link key={make} className='goose' to={`/search`}>Go Back to Make</Link>
+                    <Link key={make} className='retreat' to={`/search`}>Go Back to Make</Link>
                 </div>
                 <div className='d-flex flex-row flex-wrap justify-content-center'>
                     

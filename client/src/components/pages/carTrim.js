@@ -37,7 +37,7 @@ export default function CarTrim() {
             <div>
                 <h2 style={{ textAlign: 'center', margin: '1rem' }}>{`What Trim Level is your ${year} ${make} ${model}?`}</h2>
                 <div className='d-flex flex-row flex-wrap justify-content-center'>
-                    <Link key={year} className='goose' style={{ margin: '1rem' }} to={`/search/${make}/${model}`}>Go Back to Year</Link>
+                    <Link key={year} className='retreat' style={{ margin: '1rem' }} to={`/search/${make}/${model}`}>Go Back to Year</Link>
                 </div>
                 <div className='row justify-content-center' style={{ textAlign: 'center' }}>
                     <div className='col' style={{ margin: '1rem' }}>
@@ -66,7 +66,7 @@ export default function CarTrim() {
             <div>
                 <h2 style={{ textAlign: 'center' }}>{`What trim level is your ${year} ${make} ${model}?`}</h2>
                 <div className='d-flex flex-row flex-wrap justify-content-center'>
-                    <Link key={year} className='goose' to={`/search/${make}/${model}`}>Go Back to Year</Link>
+                    <Link key={year} className='retreat' to={`/search/${make}/${model}`}>Go Back to Year</Link>
                 </div>
                 <div className='d-flex flex-row flex-wrap justify-content-center'>
                     {carTrim.map((trim) => {

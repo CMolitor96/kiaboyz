@@ -15,3 +15,20 @@
     background-color: black;
     color: white;
 }
+
+.retreat {
+    color: black;
+    padding: .75rem;
+    border-radius: .75rem;
+    margin: .5rem;
+    border: 2px solid black;
+    background-color: #dce6ff;
+    transition-duration: 0.2s;
+    text-decoration: none;
+}
+
+.retreat:hover {
+    opacity: 1;
+    background-color: black;
+    color: white;
+}

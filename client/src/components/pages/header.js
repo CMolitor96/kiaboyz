@@ -5,21 +5,6 @@ import Logo from '../../assets/logo.jpg';
 
 export default function Header() {
     const styles = {
-        check: {
-            marginLeft: '.5rem',
-            fontSize: '5rem',
-            fontFamily: 'Work Sans',
-            fontWeight: '900'
-        },
-        yo: {
-            fontSize: '5rem',
-            padding: '0rem',
-            fontFamily: 'Work Sans',
-        },
-        kia: {
-            marginRight: '.5rem',
-            fontSize: '5rem'
-        },
         img: {
             maxWidth: '20rem',
             height: 'auto',
