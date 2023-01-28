@@ -48,7 +48,7 @@ export default function Footer() {
                             I drive a Hyundai, but could not find any information
                             online about what cars could be stolen, so I decided to create this
                             website to help other people. For questions, comments, concerns, cannot
-                            find your specific car? Please contact me.
+                            find your specific car? Please email me at <a href='mailto:checkyokia@gmail.com'>checkyokia@gmail.com</a>
                         </p>
                     </div>
                     <div className='col' style={{textAlign: 'center'}}>
