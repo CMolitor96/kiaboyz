@@ -26,7 +26,7 @@ export default function CarModel() {
                 let response = await searchCarMake(make);
                 setCarModel(response.sort());
             } catch (err) {
-                console.log(err)
+                console.error(err)
             }
         };
         getMakeData();

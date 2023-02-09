@@ -1,6 +1,7 @@
 const express = require('express');
 const path = require('path');
 const app = express();
+const router = require('express').Router();
 const routes = require('./routes');
 const PORT = process.env.PORT || 3001;
 
@@ -13,6 +14,9 @@ app.use(express.json());
 
 // app.use(express.static(path.join(__dirname, 'build')));
 app.use(express.static(path.resolve(__dirname, '../client/build')));
+router.use('/', (req, res) => {
+    res.sendFile(path.join(__dirname, '../../client/build/index.html'));
+});
 
 app.use(routes);
 
