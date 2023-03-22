@@ -42,7 +42,7 @@ export default function CarImmobilizer() {
         if (carImmobilizer.Immobilizer === 'TRUE') {
             return (
                 <section style={{margin: '1rem'}}>
-                    <h3 key={carImmobilizer.Immobilizer} style={{color: 'green', textAlign: 'center'}}>You car is safe!</h3>
+                    <h3 key={carImmobilizer.Immobilizer} style={{color: 'green', textAlign: 'center'}}>Your car is safe!</h3>
                     <p>Your car comes stock with an engine immobilizer, an important engine piece that
                         makes it difficult to steal by the KiaBoyz. This does not mean that no one may ever try
                         and steal your car, but an engine immobilizer is a great theft deterrent.
@@ -53,7 +53,7 @@ export default function CarImmobilizer() {
         } else if (carImmobilizer.Option_for_Immobilizer === 'TRUE') {
             return (
                 <section style={{margin: '1rem'}}>
-                    <h3 key={carImmobilizer.Option_for_Immobilizer} style={{color: '#DEC20B', textAlign: 'center'}}>You car may be stolen!</h3>
+                    <h3 key={carImmobilizer.Option_for_Immobilizer} style={{color: '#DEC20B', textAlign: 'center'}}>Your car may be stolen!</h3>
                     <p>This means that your car did not originally come stock with an engine immobilizer, 
                         but at the time of purchase by the original owner there was an option to add one. 
                         So this car may or may not have an engine immobilizer. The only way to find out
