@@ -19,5 +19,8 @@
     "bootstrap": "^5.2.2",
     "concurrently": "^7.5.0",
     "react-bootstrap": "^2.6.0"
+  },
+  "devDependencies": {
+    "firebase-tools": "^11.25.1"
   }
 }
