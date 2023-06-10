@@ -9,6 +9,7 @@ router.use('/search', apiRoutes);
 
 
 
+
 router.use('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
