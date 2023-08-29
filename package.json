@@ -4,7 +4,7 @@
   "description": "",
   "main": "server/server.js",
   "scripts": {
-    "start": "node server/server.js",
+    "start": "node server/server.js --ignore client",
     "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
     "install": "cd server && npm i && cd ../client && npm i",
     "seed": "cd server && npm run seed",
@@ -14,9 +14,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@aws-amplify/ui-react": "^4.3.7",
+    "aws-amplify": "^5.0.12",
     "bootstrap": "^5.2.2",
     "concurrently": "^7.5.0",
     "react-bootstrap": "^2.6.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "firebase-tools": "^11.25.1"
+  }
 }
